@@ -7,7 +7,7 @@ body{
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 .supreme-container{
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(240,240,255,1);
     position: relative;
     min-height: 100vh;
     height: auto;
@@ -37,6 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    box-shadow: 30px 30px 50px 0 rgba(0,0,0,0.1);
 }
 .daniel-testimonial{
     background-image: url("./images/bg-pattern-quotation.svg");
@@ -76,7 +77,6 @@ body{
     align-items: center;
     margin-top: min(6px, 1vh);
     /*background-color: rgba(0,0,0,0.1);*/
-
 }
 .person-img{
     width: 40px;
